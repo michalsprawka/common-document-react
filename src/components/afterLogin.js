@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import Aux from '../hoc/Auxx/Aux'
+import Aux from '../hoc/Auxx/Auxx'
 import * as actionTypes from '../store/actions'
 import {Jumbotron} from 'react-bootstrap';
 
