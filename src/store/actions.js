@@ -1,0 +1,8 @@
+export const ADD_USERDATA = "ADD_USERDATA";
+export const ADD_CONNECTED_USERS = "ADD_CONNECTED_USERS";
+export const ADD_GROUPS = "ADD_GROUPS";
+
+export const ADD_USER_GROUP_ID = "ADD_USER_GROUP_ID";
+export const LOGIN = "LOGIN";
+export const LOGOUT = "LOGOUT";
+export const GET_UNCHOOSENWORKER_COUNTER = "GET_UNCHOOSENWORKER_COUNTER";

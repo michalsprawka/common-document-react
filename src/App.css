@@ -1,33 +1,143 @@
 .App {
   text-align: center;
+  margin: 10px 100px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .table {
+  margin: 20px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+} */
+
+.blue-text {
+  color: #113991;
+}
+/* .table-row, .table-row-detail {
+  
+  width: 100%;
+  line-height: 24px;
+  white-space: nowrap;
+  margin: 10px 0;
+  padding: 10px;
+  
+  background-color: rgb(189, 187, 187);
+  border: 2px solid #113991;
+  border-radius: 15px;
+  font-weight: normal;
+  font-size: 13px;
+  margin: 5px;
+
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.out-of-date {
+  border: 2px solid red;
+}
+.warning-date {
+  border: 2px solid yellow;
 }
 
-.App-link {
-  color: #61dafb;
+.myTable:hover {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list {
+  margin: auto;
+  width: 20%;
+ 
+}
+.list-row {
+ 
+  line-height: 24px;
+  white-space: nowrap;
+  margin: 10px 0;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+ 
+}
+
+.jumbotron-in-detail {
+  text-align: left;
+  width: 100%;
+}
+.button-holder {
+  padding: 10px;
+  padding-bottom : 20px;
+}
+.span-clickable:hover , .li-in-nav:hover {
+  background-color: aquamarine
+}
+.span-clickable-dropdown:hover {
+  background-color: rgba(70, 104, 136, 0.74)
+}
+.span-clickable {
+  cursor: pointer;
+  /* padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px; */
+  padding: 15px;
+  margin: 0;
+  
+}
+
+.span-clickable-dropdown {
+  cursor: pointer;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  /* padding: 15px; */
+  margin: 0;
+ width: 100%;
+  
+}
+.btn-outline-danger {
+  border-color: red;
+}
+.btn-outline-blue {
+  border-color: blue;
+}
+.link-in-nav {
+  color: rgb(119, 119, 119);
+  padding: 15px;
+  text-decoration-line: none;
+  /* text-decoration-color: rgb(119, 119, 119); */
+}
+.link-in-nav:hover {
+  color: rgb(119, 119, 119);
+  text-decoration-line: none;
+}
+a:link{
+  text-decoration-line: none;
+}
+.link-in-nav:visited {
+  color: rgb(119, 119, 119);
+  text-decoration-line: none;
+}
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
